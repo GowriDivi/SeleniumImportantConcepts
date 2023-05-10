@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Test suite" verbose="2">
+<test name="Test cases">
+
+<groups>
+<run>
+<include name="Apple"></include>
+<include name="Moto"></include>
+<include name="Max"></include>
+</run>
+</groups>
+<classes>
+<class name="testNG.GroupingExample"></class>
+</classes>
+</test>
+</suite>
+
+
+
+
+<!-- <class name="testNG.Drive_A_Car"></class>
+<class name="testNG.DependenciesManagement"></class>
+<class name="testNG.SampleTestCase"></class>
+<class name="testNG.Skip_A_Testcase"></class> -->

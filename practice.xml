@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Practice suite1" verbose="2">
+<listeners>
+<listener class-name="testNG.ListenerExample"></listener>
+</listeners>
+<test name="Practice test">
+<classes>
+<class name="testNG.Drive_A_Car"></class>
+</classes>
+</test>
+</suite>
+
+<!--  <suite name="Practice Suite" verbose="2" parallel="methods" thread-count="2">
+<test name="Practice Test">
+<classes>
+<class name="testNG.ParallelTestingExample"></class>
+</classes>
+</test>
+</suite> -->

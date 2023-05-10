@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test Practice]" verbose="2">
+  <test name="Intense Testing(failed)">
+    <classes>
+      <class name="testNG.ParameterizationExample">
+        <methods>
+          <include name="printName"/>
+        </methods>
+      </class> <!-- testNG.ParameterizationExample -->
+    </classes>
+  </test> <!-- Intense Testing(failed) -->
+</suite> <!-- Failed suite [Test Practice] -->

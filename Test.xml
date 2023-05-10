@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Test Practice" verbose="2">
+<test name="Intense Testing">
+<parameter name="Name" value="Gowri_Vinoth"></parameter>
+<classes>
+<class name="testNG.ParameterizationExample"></class>
+</classes>
+</test>
+</suite>

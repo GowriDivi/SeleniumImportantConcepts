@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Login Suite]">
+  <test name="Login Test Cases(failed)">
+    <classes>
+      <class name="dataTestNG.BothCorrect">
+        <methods>
+          <include name="loginWithCorrectDetails"/>
+        </methods>
+      </class> <!-- dataTestNG.BothCorrect -->
+      <class name="dataTestNG.CorrectPassword">
+        <methods>
+          <include name="loginWithCorrectPassword"/>
+        </methods>
+      </class> <!-- dataTestNG.CorrectPassword -->
+      <class name="dataTestNG.BothIncorrect">
+        <methods>
+          <include name="loginWithInCorrectDetails"/>
+        </methods>
+      </class> <!-- dataTestNG.BothIncorrect -->
+      <class name="dataTestNG.CorrectUserName">
+        <methods>
+          <include name="loginWithCorrectUserName"/>
+        </methods>
+      </class> <!-- dataTestNG.CorrectUserName -->
+    </classes>
+  </test> <!-- Login Test Cases(failed) -->
+</suite> <!-- Failed suite [Login Suite] -->
